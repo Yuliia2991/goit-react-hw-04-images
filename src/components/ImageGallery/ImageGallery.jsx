@@ -20,7 +20,10 @@ export const ImageGallery = ({ images }) => {
 ImageGallery.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,      
+      id: PropTypes.number.isRequired,   
+      webformatURL: PropTypes.string.isRequired,
+      tags: PropTypes.string.isRequired,
+      largeImageURL: PropTypes.string.isRequired,
     }).isRequired
   ).isRequired,
 };

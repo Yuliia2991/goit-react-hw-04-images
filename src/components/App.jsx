@@ -5,7 +5,7 @@ import { Searchbar } from './Searchbar/Searchbar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Button } from './Button/Button';
 import { Loader } from './Loader/Loader';
-import { fetchImages } from './services/api';
+import { fetchImages } from '../services/api';
 
 export const App = () => {
   const [query, setQuery] = useState('');
